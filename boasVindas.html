@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>JANELA DE BOAS VINDAS</title>
+<link href="style/colorbox.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<p>Lorem IPSUM</p>
+<!-- Adicionar as bibliotecas do Jquery e do colorbox ao documento -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="colorbox-master/jquery.colorbox-min.js"></script>
+
+<!-- Script para criar a janela MODAL -->
+<script type="text/javascript">
+	//Quando o documento estiver pronto crie a janela modal
+	$(document).ready(function() {
+		$.colorbox({html:'<div class="welcome">	OLA SEJA BEM VINDO </div>'});
+	});
+</script>
+
+</body>
